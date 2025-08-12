@@ -54,6 +54,7 @@ main{
          flex-direction:column;
          justify-content:center;
          align-items:center;
+         z-index:10;
          
          
 }
@@ -84,6 +85,7 @@ main{
 }
 .shoes{
       position:relative;
+      z-index:4;
 
 }
 .bg{
@@ -107,6 +109,7 @@ main{
       top:20%;
       transform:rotate(-10deg);
       opacity: 1;
+     
 }
 
 
@@ -129,6 +132,7 @@ main{
   height:79px;
   background-color: #DCE4D0;
   margin-right: 10px;
+  z-index:8;
 
 }
 
@@ -141,6 +145,7 @@ main{
 #p3 {
   margin: 0; 
   font-weight: bold;
+
 }
 
 #p4 {
@@ -166,7 +171,7 @@ main{
   width: 80px;
   background-color: #DCE4D0;
   margin-right: 10px;
-
+ z-index:9;
 
 }
 
@@ -174,17 +179,22 @@ main{
   display: flex;
   flex-direction: column; 
   justify-content: center;
+  position:absolute;
+  z-index:9;
 }
 
 #p3 {
   margin: 0; 
   font-weight: bold;
+  color:#000000;
+  margin-left:100px;
 }
 
 #p4 {
   margin: 5px 0 0;
   font-size: 14px;
-  color: #ccc;
+  margin-left:100px;
+  color: #000000;
 }
 .offer{
       position:relative;
@@ -202,14 +212,68 @@ main{
       font-size:3rem;
       color:#ffffff;
 }
-.BOX1{
+.div2{
+      width:800px;;
+      height:500px;;
+      background-color:#708090;
+      margin-top:700px;
+      position: relative;
+      z-index:2;
+      left:2%;
+      border-radius:30px;
+      
+}
+.items img{
       width:300px;
-      height:300px;
-      background-color:bisque;
+      margin-top:100px;
+      margin-left:400px;
+      border-radius:50%;
       position:absolute;
-      top:30%;
-      left:20%;
-      display:flex;
-      justify-content:center;
-      padding:30px;
+      left:-40%;
+
+
+}
+.span1{
+      
+      background-color: #708090;
+       margin-left:30rem;
+      
+
+}
+.p1{
+      margin-left:25rem;
+      margin-top:90px;
+      font-size:2rem;
+      color:white;
+      font-weight:800;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.p2{
+      margin-left:25rem;
+      margin-top:50px;
+      font-size:1.2rem;
+}
+.p3{
+      margin-left:25rem;
+      margin-top:50px;
+      font-size:1.6rem;
+      color:#0e5091;
+      font-weight:800;
+}
+.span2{
+      margin-left:100px;
+}
+.div3{
+      width:800px;;
+      height:500px;;
+      background-color:#708090;
+      margin-top:-500px;
+      position: relative;
+      z-index:2;
+      left:50%;
+      border-radius:30px;
+      
+}
+.SHOES{
+      background-color: white;
 }
