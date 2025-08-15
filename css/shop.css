@@ -93,38 +93,74 @@ ul h4{
       margin-top:30px;
 }
 
-.box1{
-      width:320px;
-      height:390px;
+.box{
+      width:300px;
+      height:340px;
+      font-family:'Oswald', sans-serif;
       background-color: rgba(197, 197, 197, 0.416)  ;
       display: flex;
-      justify-content: center;
+      justify-content: space-evenly;
       align-items: center;
       flex-direction: column;
       border-radius:30px;
       font-size:larger;
       margin-bottom: 30px;
       padding:30px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+ 
+.box:hover {
+      transform: translateY(-10px);
+      background-color: black;
+      color:beige;
 }
 .img{
       background-color: rgba(255, 255, 255, 0.877);
-      height:200px;
+      height:150px;
+      display: flex;
+      justify-content: center;
       border-radius:30px;
-      margin-top:30px;
+      margin-top:-10px;
+      width:200px;
 }
-.img img{
+
+.shoes1{
+      
+width:170px;
+height:200px;
+margin-top:-40px;
+}
+.shoes4{
+      
+width:200px;
+}
+.shoes3{
+      
 width:200px;
 
+
 }
-.box1 h3{
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.shoes2{
+      
+width:200px;
+margin:10px;
+
+}
+
+
+.box h3{
+      font-family:'Pacifico', cursive;
       
 }
 .rate{
       background-color: cadetblue;
       border-radius:30px;
-      padding:10px;
-      
+      padding:10px;     
+}
+.shoes1 img{
+      width:500px;
 }
 
 
